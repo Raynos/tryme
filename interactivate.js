@@ -3,7 +3,7 @@
 var diff = require("diffpatcher/diff")
 var patch = require("diffpatcher/patch")
 var marked = require('marked');
-var Element = window.Element
+var Element = window.Element;
 
 var CodeMirror = require("./code-mirror")
 

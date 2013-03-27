@@ -118,7 +118,7 @@ module.exports = function(wwwroot, argv) {
         var src = fs.readFileSync(full_path, 'utf8');
 
         function server() {
-            window.require = require
+            window.require = require;
             // emit a `client` event on the window with the given packet object
             function send(packet) {
                 var event = document.createEvent("CustomEvent")
